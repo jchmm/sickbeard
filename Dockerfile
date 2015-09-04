@@ -7,7 +7,7 @@ python-cheetah
 
 RUN git clone https://github.com/midgetspy/Sick-Beard.git /root/Sick-Beard
 
-ENV PATH /root/Sick-Beard/:$PATH
+ENV PATH /root/Sick-Beard:$PATH
 
 VOLUME ["/data"]
 
